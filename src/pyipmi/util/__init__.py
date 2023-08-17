@@ -61,7 +61,7 @@ class PyTest:
 
         try:
             # read the config file
-            config_file = os.path.join(os.getenv('HOME'), '.config', 'pyipmi', 'pyipmi.conf')
+            config_file = '/etc/pyipmi.conf'
             self.conf = PyConfig()
             opts, w_flag = self.conf.parse_config(config_file)  
 
