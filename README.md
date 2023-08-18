@@ -1,6 +1,6 @@
-# ipmitool alternative for ESXi, based on Hyve PyIPMI
+# ipmitool alternative for ESXi 8.0, based on Hyve PyIPMI
 
-You may know that ipmitool is not available for ESXi after 7.0 because of the new policies for the packages introduces in 8.0.
+You may know that ipmitool is not available for ESXi after 7.0 because of the new policies for the packages introduced in 8.0 (please see more details in this blogpost https://vswitchzero.com/ipmitool-vib).
 PyIPMI is a simple workaround for this problem. This tool may not provide all capabilities existing in ipmitool - you may want to check the functions implemented and supported today and see if this works for you.
 
 This tool is only for home/experimental use. Not for production use!
